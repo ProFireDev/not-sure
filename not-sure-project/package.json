@@ -2,8 +2,8 @@
   "name": "not-sure-project",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite --host",
-    "comments": " // remove --host to use default localhost, potential security risk",
+    "dev": "vite",
+    "comment": "// add --host to open to the network, potential security risk",
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
